@@ -1,0 +1,162 @@
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.logo{
+    filter: invert(1);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.nav-element{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+.phone-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-text{
+    text-align: center;
+    font-size: 32px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px 0;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.servise-logo{
+    margin: 40px 0;
+}
+.products-text{
+    text-align: center;
+    font-size: 25px;
+}
+.products{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px auto;
+}
+.border{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 25px 40px;
+    border-radius: 13px;
+}
+.border:hover{
+    background-color: red;
+}
+.border-pera{
+    margin: 5px;
+}
+li{
+    cursor: pointer;
+}
+.phones{
+    display: flex;
+    flex-wrap: wrap;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+}
+.form-text{
+    font-size: 13px;
+    margin: 4px;
+}
+.buy-btn{
+    padding: 7px 14px;
+    margin: 4px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.contact-text{
+    text-align: center;
+    font-size: 25px;
+    margin: 50px 10px 20px 10px;
+}
+.form{
+    width: 50%;
+    margin: 20px auto;
+    height: 300px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.name, .email{
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+.msg{
+    padding: 50px 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 7px;
+    
+}
+.name::placeholder{
+    color: white;
+}
+.email::placeholder{
+    color: white;
+}
+.msg::placeholder{
+    color: white;
+}
+.submit-btn{
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.rolar{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+}
+.copyright{
+    text-align: center;
+}
+.copy{
+    font-size: 15px;
+    margin: 10px 0px;
+}
